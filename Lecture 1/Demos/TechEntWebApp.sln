@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechEntWebApp", "TechEntWebApp\TechEntWebApp.csproj", "{F9DD293B-E728-4669-BEF3-E7B510A270E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLoadTester", "MyLoadTester\MyLoadTester.csproj", "{159A5224-BDBC-4CCF-8C1B-357CE72624E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchIndexPopulator", "SearchIndexPopulator\SearchIndexPopulator.csproj", "{4A6E0A17-0F69-465A-80D9-F76A3706A556}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9DD293B-E728-4669-BEF3-E7B510A270E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DD293B-E728-4669-BEF3-E7B510A270E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DD293B-E728-4669-BEF3-E7B510A270E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DD293B-E728-4669-BEF3-E7B510A270E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159A5224-BDBC-4CCF-8C1B-357CE72624E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159A5224-BDBC-4CCF-8C1B-357CE72624E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159A5224-BDBC-4CCF-8C1B-357CE72624E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159A5224-BDBC-4CCF-8C1B-357CE72624E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6E0A17-0F69-465A-80D9-F76A3706A556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6E0A17-0F69-465A-80D9-F76A3706A556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6E0A17-0F69-465A-80D9-F76A3706A556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6E0A17-0F69-465A-80D9-F76A3706A556}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
