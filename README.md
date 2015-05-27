@@ -2,6 +2,8 @@
 
 Materials for the Tech Entrepreneurship course with Azure.
 
+Be sure to join the [Technical Entrepreneurship Facebook group](https://www.facebook.com/groups/660391594061447/) to ask question and to receive program updates.
+
 Here is the program so far:
 
 ## Как да създадем SaaS приложение в cloud-а
