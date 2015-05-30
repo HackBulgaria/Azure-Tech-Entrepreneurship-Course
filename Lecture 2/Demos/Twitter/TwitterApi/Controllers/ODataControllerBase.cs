@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Composition;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Net;
-using System.Web;
 using System.Web.Http;
 using System.Web.OData;
 using Common.Models;
@@ -88,7 +86,7 @@ namespace TwitterApi.Controllers
 				return this.Context.Users.FirstOrDefault(u => u.Id == id.UserId);
 			}
 
-			return null;
+			return null;	
 		}
 	}
 }
