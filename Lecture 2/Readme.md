@@ -39,3 +39,15 @@ We can easily extend the current demo and make it more realistic. For example:
 - [ ] We can add Follow action to the Users controller and Retweet action to the Tweets controller.
 - [ ] We can replace the current encryption with proper one.
 - [ ] Etc, etc.
+
+## Additional reading
+- **WebApi**: Some pretty extensive tutorials on creating a WebApi backend can be found [here](http://www.asp.net/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api)
+- **DI/IoC**:
+  - An [in-depth article](http://martinfowler.com/articles/injection.html) by Martin Fowler
+  - [Performance benchmarks](http://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison) for some popular .NET IoC containers
+- **OData**: 
+  - [Tutorials](http://www.asp.net/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/create-an-odata-v4-endpoint) for creating a v4 service
+  - The OData for WebApi [docs](http://odata.github.io/WebApi/)
+  - The OData for WebApi [Github repo](https://github.com/OData/WebApi)
+  - Official project [website](http://www.odata.org)
+  - ServiceStack project lead's [rant against OData](http://stackoverflow.com/a/9579090). There are some very valid points in the linked articles as well.
