@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisProducer", "RedisProducer\RedisProducer.csproj", "{7C1F3285-FF02-476C-89B0-B5E770A63A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisWorker", "RedisWorker\RedisWorker.csproj", "{AA0C58D8-FDF9-49BD-9780-9779B92FDEEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{95E1EBF4-C852-410A-8376-85D3AB0567D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C1F3285-FF02-476C-89B0-B5E770A63A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1F3285-FF02-476C-89B0-B5E770A63A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1F3285-FF02-476C-89B0-B5E770A63A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1F3285-FF02-476C-89B0-B5E770A63A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0C58D8-FDF9-49BD-9780-9779B92FDEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0C58D8-FDF9-49BD-9780-9779B92FDEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0C58D8-FDF9-49BD-9780-9779B92FDEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0C58D8-FDF9-49BD-9780-9779B92FDEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E1EBF4-C852-410A-8376-85D3AB0567D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E1EBF4-C852-410A-8376-85D3AB0567D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E1EBF4-C852-410A-8376-85D3AB0567D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E1EBF4-C852-410A-8376-85D3AB0567D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
