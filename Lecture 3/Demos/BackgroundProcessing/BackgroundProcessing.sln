@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagingService", "ImagingService\ImagingService.csproj", "{0656A1C0-A2B9-4DCB-8589-3067740CA5CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageUploader", "ImageUploader\ImageUploader.csproj", "{05A4850E-08DC-4E4C-8133-BD2485361A7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0656A1C0-A2B9-4DCB-8589-3067740CA5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0656A1C0-A2B9-4DCB-8589-3067740CA5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0656A1C0-A2B9-4DCB-8589-3067740CA5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0656A1C0-A2B9-4DCB-8589-3067740CA5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A4850E-08DC-4E4C-8133-BD2485361A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A4850E-08DC-4E4C-8133-BD2485361A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A4850E-08DC-4E4C-8133-BD2485361A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A4850E-08DC-4E4C-8133-BD2485361A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
