@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Web.Http;
 using ImagingService.Helpers;
@@ -30,11 +31,17 @@ namespace ImagingService.Controllers
 		}
 
 		[HttpGet]
-		[Route("api/images")]
-		public IHttpActionResult Get()
+		[Route("api/images/{name}")]
+		public HttpResponseMessage Get(string name, int size = 1024)
 		{
-			// TODO:
-			return this.Ok();
+			var file = ImageHelper.GetImage(name, size);
+			var content = new StreamContent(file);
+			content.Headers.ContentType = new MediaTypeHeaderValue("image/jpg");
+
+			return new HttpResponseMessage(HttpStatusCode.OK)
+			{
+				Content = content,
+			};
 		}
     }
 }

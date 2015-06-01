@@ -12,36 +12,56 @@ namespace ImagingService.Helpers
 		
 		public static void StoreImage(string name, byte[] image)
 		{
-			var filename = Path.GetFileNameWithoutExtension(name);
-			var extension = Path.GetExtension(name).Trim('.');
-			var sizes = Enum.GetValues(typeof(Size)).Cast<Size>();
-
-			var folder = GetFolderName(filename);
+			var folder = GetFolderName(name);
 			if (Directory.Exists(folder))
 			{
 				Directory.Delete(folder, true);
 			}
 
 			Directory.CreateDirectory(folder);
+			var sizes = Enum.GetValues(typeof(Size)).Cast<Size>();
 			foreach (var size in sizes)
 			{
-				var resized = Resize(size, image, extension);
-				SaveToDisk(folder, size, resized, extension);
+				var resized = Resize(size, image);
+				SaveToDisk(folder, size, resized);
 			}
 		}
 
-		public static byte[] GetImage(string name, int preferredSize)
+		public static Stream GetImage(string name, int preferredSize)
 		{
-			return new byte[0];
+			var folder = GetFolderName(name);
+			var sizes = Directory.EnumerateFiles(folder)
+								 .Select(f => new { Size = int.Parse(Path.GetFileNameWithoutExtension(f)), Path = f })
+								 .OrderByDescending(f => f.Size)
+								 .ToArray();
+
+			if (sizes.Any())
+			{
+				var path = sizes.Where(s => s.Size >= preferredSize)
+								.OrderBy(s => s.Size)
+								.Select(f => f.Path)
+								.FirstOrDefault();
+
+				if (path == null)
+				{
+					path = sizes.First().Path;
+				}
+
+				return File.OpenRead(path);
+			}
+			else
+			{
+				return Stream.Null;
+			}
 		}
 
-		private static byte[] Resize(Size size, byte[] image, string extension)
+		private static byte[] Resize(Size size, byte[] image)
 		{
 			var settings = new ResizeSettings
 			{
 				MaxWidth = (int)size,
 				MaxHeight = (int)size,
-				Format = extension
+				Format = "jpg"
 			};
 			using (var sourceStream = new MemoryStream(image))
 			using (var destinationStream = new MemoryStream())
@@ -51,9 +71,9 @@ namespace ImagingService.Helpers
             }
 		}
 
-		private static void SaveToDisk(string folder, Size size, byte[] data, string extension)
+		private static void SaveToDisk(string folder, Size size, byte[] data)
 		{
-			var destinationPath = Path.Combine(folder, size + "." + extension);
+			var destinationPath = Path.Combine(folder, ((int)size) + ".jpg");
 			File.WriteAllBytes(destinationPath, data);
 		}
 

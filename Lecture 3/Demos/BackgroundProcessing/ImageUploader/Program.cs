@@ -21,7 +21,7 @@ namespace ImageUploader
 			using (var client = new HttpClient())
 			{
 				var content = new MultipartFormDataContent();
-				content.Add(new StreamContent(File.Open(file, FileMode.Open)), "image", Path.GetFileName(file));
+				content.Add(new StreamContent(File.Open(file, FileMode.Open)), "image", Path.GetFileNameWithoutExtension(file));
                 var response = await client.PostAsync("http://localhost/ImagingService/api/images/", content);
 			}
 		}
