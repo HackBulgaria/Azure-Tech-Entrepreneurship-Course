@@ -9,6 +9,20 @@ namespace ImagingService.Helpers
 	public static class ImageHelper
 	{
 		private static readonly string imagesFolder = HostingEnvironment.MapPath("~/Images");
+		private static readonly string tempFolder = HostingEnvironment.MapPath("~/TempImages");
+
+		public static void SaveOriginal(string name, byte[] image)
+		{
+			var imagePath = Path.Combine(tempFolder, name);
+			File.WriteAllBytes(imagePath, image);
+		}
+
+		public static void StoreAndResize(string name)
+		{
+			var imagePath = Path.Combine(tempFolder, name);
+			StoreAndResize(name, File.ReadAllBytes(imagePath));
+			File.Delete(imagePath);
+		}
 
 		public static void StoreAndResize(string name, byte[] image)
 		{
