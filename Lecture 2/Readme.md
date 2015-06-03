@@ -1,4 +1,4 @@
-# Lecture 2: Intro
+# Lecture 2: Stack selection
 In this lecture we talked about selecting appropriate stack for a startup. We emphasized that it's important that you're comfortable with the stack and that it works for whatever business needs you might have. Additionally, mature and homogenous stacks are to be prefferred.
 
 We looked into REST and DI/IoC and why and when we should use them (hint: almost always :)) Finally, we discussed OData and its pros/cons.
