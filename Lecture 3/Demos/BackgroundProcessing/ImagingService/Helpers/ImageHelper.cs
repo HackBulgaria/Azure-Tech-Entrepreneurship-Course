@@ -9,8 +9,8 @@ namespace ImagingService.Helpers
 	public static class ImageHelper
 	{
 		private static readonly string imagesFolder = HostingEnvironment.MapPath("~/Images");
-		
-		public static void StoreImage(string name, byte[] image)
+
+		public static void StoreAndResize(string name, byte[] image)
 		{
 			var folder = GetFolderName(name);
 			if (Directory.Exists(folder))
@@ -27,7 +27,7 @@ namespace ImagingService.Helpers
 			}
 		}
 
-		public static Stream GetImage(string name, int preferredSize)
+		public static Stream Get(string name, int preferredSize)
 		{
 			var folder = GetFolderName(name);
 			var sizes = Directory.EnumerateFiles(folder)

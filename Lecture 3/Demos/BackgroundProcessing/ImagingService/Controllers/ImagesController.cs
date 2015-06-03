@@ -24,7 +24,7 @@ namespace ImagingService.Controllers
 			{
 				var filename = file.Headers.ContentDisposition.FileName.Trim('\"');
 				var buffer = await file.ReadAsByteArrayAsync();
-				ImageHelper.StoreImage(filename, buffer);
+				ImageHelper.StoreAndResize(filename, buffer);
 			}
 
 			return this.Ok();
@@ -34,7 +34,7 @@ namespace ImagingService.Controllers
 		[Route("api/images/{name}")]
 		public HttpResponseMessage Get(string name, int size = 1024)
 		{
-			var file = ImageHelper.GetImage(name, size);
+			var file = ImageHelper.Get(name, size);
 			var content = new StreamContent(file);
 			content.Headers.ContentType = new MediaTypeHeaderValue("image/jpg");
 
