@@ -4,6 +4,9 @@ Materials for the Tech Entrepreneurship course with Azure.
 
 Be sure to join the [Technical Entrepreneurship Facebook group](https://www.facebook.com/groups/660391594061447/) to ask questions and to receive program updates.
 
+## Announcements
+In case anyone missed it, our next lecture (Saturday, June 6) will start at **13:00**. This is a one-time change that will not affect our next lectures.
+
 ## Course syllabus
 
 1. SaaS in the Azure Cloud;
