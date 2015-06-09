@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNativeApp.iOS", "iOS\MyNativeApp.iOS.csproj", "{D25B6796-1644-4B94-AF36-EADB196772BE}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyNativeApp", "MyNativeApp\MyNativeApp.shproj", "{9493A80F-1824-4910-9C1B-4A664475A108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Release|Any CPU.Build.0 = Release|iPhone
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Release|iPhone.Build.0 = Release|iPhone
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D25B6796-1644-4B94-AF36-EADB196772BE}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.TabsToSpaces = False
+		$1.NoTabsAfterNonTabs = True
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.IndentBlocksInsideExpressions = True
+		$2.AnonymousMethodBraceStyle = NextLine
+		$2.PropertyBraceStyle = NextLine
+		$2.PropertyGetBraceStyle = NextLine
+		$2.PropertySetBraceStyle = NextLine
+		$2.SimpleGetBlockFormatting = ForceNewLine
+		$2.SimpleSetBlockFormatting = ForceNewLine
+		$2.EventBraceStyle = NextLine
+		$2.EventAddBraceStyle = NextLine
+		$2.EventRemoveBraceStyle = NextLine
+		$2.AllowEventAddBlockInline = False
+		$2.AllowEventRemoveBlockInline = False
+		$2.StatementBraceStyle = NextLine
+		$2.ElseNewLinePlacement = NewLine
+		$2.ElseIfNewLinePlacement = NewLine
+		$2.CatchNewLinePlacement = NewLine
+		$2.FinallyNewLinePlacement = NewLine
+		$2.WhileNewLinePlacement = NewLine
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.BeforeIndexerDeclarationBracket = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.AfterDelegateDeclarationParameterComma = True
+		$2.NewParentheses = False
+		$2.IfParentheses = False
+		$2.WhileParentheses = False
+		$2.ForParentheses = False
+		$2.ForeachParentheses = False
+		$2.CatchParentheses = False
+		$2.SwitchParentheses = False
+		$2.LockParentheses = False
+		$2.UsingParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.AlignToFirstMethodCallArgument = True
+		$2.AlignToFirstIndexerArgument = True
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{9493A80F-1824-4910-9C1B-4A664475A108}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MyNativeApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)IoC\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Navigation\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\Implementation\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Helpers\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)IoC\TinyIoC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IoC\TinyIoCExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IoC\Attributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\INavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Navigation\INavigationAware.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IUserService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ChannelViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Implementation\UserService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\EmailHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IDialogService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IoC\IoCAwareBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\HttpHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MessagesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Message.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Channel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IRemoteClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Implementation\RemoteClient.cs" />
+  </ItemGroup>
+</Project>

@@ -198,3 +198,6 @@ ModelManifest.xml
 /Lecture 3/Demos/BackgroundProcessing/ImagingService/TempImages
 /Lecture 3/Snippets
 /Lecture 3/Demos/Redis/packages
+/*.DS_Store
+/Lecture 4/Demos/ChatBackend/packages
+/Lecture 4/Demos/MyNativeApp/MyNativeApp/Services/.DS_Store
