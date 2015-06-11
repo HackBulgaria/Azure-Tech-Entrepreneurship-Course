@@ -1,4 +1,4 @@
-# Lecture 3: Mobile development with Xamarin
+# Lecture 4: Mobile development with Xamarin
 In this lecture we talked about the different approaches to mobile development. Roughly, we've categorized them in 3 categories - *Native*, *X-Platform*, and *Hybrid* (HTML/JS/CSS).
 
 The **Native** approach produces a fast application that looks consistent with the user's operating system paradigms and allows you to easily integrate with 3rd party libraries and tools. It, however, requires more time to develop and more experienced developers. Examples: Objective C/Swift for iOS, Java/C++ for Android, C# for Windows Phone.
