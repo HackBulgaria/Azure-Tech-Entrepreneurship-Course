@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloPayments", "HelloPayments\HelloPayments.csproj", "{BA5A9AA7-E155-439F-A097-0F6528842658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA5A9AA7-E155-439F-A097-0F6528842658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5A9AA7-E155-439F-A097-0F6528842658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5A9AA7-E155-439F-A097-0F6528842658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5A9AA7-E155-439F-A097-0F6528842658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
