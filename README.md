@@ -10,24 +10,24 @@ In case anyone missed it, our next lecture (Saturday, June 6) will start at **13
 ## Course syllabus
 
 1. SaaS in the Azure Cloud;
-  1. Какво е SaaS;
-  2. Какво е Cloud;
-    1. Защо SaaS в Cloud-а;
-  3. Azure в детайли - 2ч;
-2. Избор на Технологичен стек – .NET;
-  1. Защо .NET. Анализ на екосистемата. Сравнение с други екосистеми. Плюсове и Минуси;
-  2. Wеб сървър с WebApi и OData;
+  1. What is SaaS;
+  2. What is Cloud;
+    1. Why SaaS in the Cloud;
+  3. Azure in detail - 2ч;
+2. Choosing a stack – .NET;
+  1. Why .NET. Ecosystem analysis. Comparison with other ecosystems - advantages and disadvantages;
+  2. Wеб server with WebApi and OData;
 3. Microservices architecture and background processing - Hangfire, Orleans, Redis (TBD);
 4. Native application development with .NET and Xamarin;
 5. (TBD);
-6. Инфраструктура за стартъпи;
+6. Infrastructure for startups;
   1. Source Control;
   2. Azure Deployment;
-  3. Continuous Integration - автоматизация;
+  3. Continuous Integration;
   4. SSL certificates;
-7. Интеграции с други cloud услуги в и извън Azure – UserVoice, Leanplum, Braintree, Taperecorder и други;
-8. (TBD); - Leanplum / Джо
-9. (TBD); - Chaos Group / Симандов
-10. Hands on Lab - 3ч. активна работа + Q&As
+7. Integration with other Cloud services within and outside Azure – UserVoice, Leanplum, Braintree, Taperecorder and others;
+8. (TBD); - Leanplum / Joe;
+9. (TBD); - Chaos Group / Simandov;
+10. Hands on Lab, Q&As;
 
 
